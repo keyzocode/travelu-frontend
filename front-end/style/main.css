@@ -1,0 +1,595 @@
+body {
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: #1F1C33;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.navbar-brand img {
+  max-width: 129px;
+  max-height: 39px;
+}
+
+.navbar-nav {
+  padding-right: 25px;
+}
+
+.navbar-collapse .navbar-nav a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-collapse .navbar-nav a:hover {
+  color: orange;
+}
+
+.navbar .navbar-nav .nav-item img {
+  max-height: 25px;
+}
+
+.btn-signin-navbar {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.btn-signin-navbar:hover {
+  color: white;
+  background-color: #202040;
+}
+
+.btn-getstarted-navbar {
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.btn-getstarted-navbar:hover {
+  background-color: black;
+  color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  border-color: #3f3d3d;
+}
+
+.header-home {
+  background-image: url("../images/background-header.png");
+  background-size: cover;
+  margin-top: -70px;
+  padding: 168px 0 100px;
+}
+
+.header-images img {
+  max-width: 100%;
+  max-height: 380px;
+  padding-bottom: 10px;
+}
+
+header .header-title {
+  font-family: Volkhov;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+header .header-paragraph {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 44px;
+}
+
+header .btn-getstarted-header {
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+header .btn-getstarted-header:hover {
+  background-color: black;
+  color: white;
+}
+
+.header-ticket {
+  background-image: url("../images/header-ticket.png");
+  background-size: cover;
+  margin-top: -70px;
+  padding: 168px 0 100px;
+}
+
+.header-ticket .header-title-ticket {
+  color: white;
+  font-family: Volkhov;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.header-ticket .btn-header-ticket {
+  font-weight: 200px;
+  margin-bottom: 120px;
+  border-color: white;
+  width: 200px;
+  height: 46px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.header-ticket .btn-header-ticket:hover {
+  background-color: rgba(67, 67, 67, 0.5);
+  border-style: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
+}
+
+.header-ticket .btn-header-ticket:active:focus {
+  background-color: rgba(67, 67, 67, 0.5);
+  border-style: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
+}
+
+.first-main-content .title-main {
+  margin-top: 70px;
+  font-family: Volkhov;
+  font-size: 40px;
+}
+
+.first-main-content .logo-travelu-main {
+  max-height: 50px;
+  margin-top: 40px;
+}
+
+.first-main-content .content-service .card {
+  height: 450px;
+  margin-bottom: 10px;
+  border: none;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+.first-main-content .content-service .card:hover {
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.first-main-content .content-service .card img {
+  padding-top: 35px;
+  padding-bottom: 58px;
+}
+
+.first-main-content .content-service .card .card-text {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.first-main-content .our-partners-content .title-partner {
+  margin-top: 70px;
+  font-family: Volkhov;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.first-main-content .our-partners-content img {
+  margin-bottom: 43px;
+}
+
+.first-main-content .reviews-content .images-google-reviews {
+  margin-top: 95px;
+  max-height: 150px;
+}
+
+.first-main-content .reviews-content .card {
+  height: 200px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.first-main-content .reviews-content .reviews-testimonial .images-account-reviews {
+  max-height: 50px;
+  padding-left: 28px;
+}
+
+.first-main-content .reviews-content .reviews-testimonial .name-testimonial {
+  padding-left: 18px;
+  padding-top: 9px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200px;
+  font-size: 25px;
+}
+
+.first-main-content .reviews-content .reviews-testimonial .testimonial-reviews {
+  padding-left: 16px;
+  padding-top: 11px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200px;
+}
+
+.section-travel-packages {
+  margin-top: 100px;
+}
+
+.section-travel-packages .card {
+  min-height: 378px;
+  border: none;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.section-travel-packages .travel-country {
+  padding-top: 17px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.section-travel-packages .travel-button {
+  padding-bottom: 20px;
+}
+
+.section-travel-packages .travel-button .btn-travel-packages-details {
+  border-color: white;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.section-travel-packages .travel-button .btn-travel-packages-details:hover {
+  background-color: rgba(67, 67, 67, 0.5);
+  border-style: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-travel-packages .travel-button .btn-travel-packages-details:active:focus {
+  background-color: rgba(67, 67, 67, 0.5);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.details-travel-content-btn .btn-back {
+  margin-top: 31px;
+  color: white;
+  background-color: #202040;
+  border-style: none;
+  border-radius: 0px;
+}
+
+.details-travel-content {
+  margin-top: 37px;
+}
+
+.details-travel-content .card-details-travel {
+  min-height: 545px;
+  border-radius: 0px;
+  border-style: none;
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  margin-bottom: 15px;
+}
+
+.details-travel-content .card-details-travel .card-travel-photo {
+  min-height: 378px;
+  border-style: none;
+  border-radius: 0px;
+  background-size: cover;
+}
+
+.details-travel-content .card-details-travel .card-travel-photo .travel-country {
+  color: white;
+  margin-top: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.details-travel-content .card-details-travel .about-travel .detail-travel-title {
+  margin-top: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.details-travel-content .card-details-travel .about-travel .detail-travel-description {
+  margin-top: 11px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.details-travel-content .card-details-travel .featured-travel-details {
+  margin-left: 92px;
+  margin-right: 92px;
+  margin-bottom: 57px;
+}
+
+.details-travel-content .card-details-travel .featured-travel-details img {
+  max-width: 34px;
+  max-height: 34px;
+}
+
+.details-travel-content .card-details-travel .featured-travel-details .featured-title {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+.details-travel-content .card-details-travel .featured-travel-details .featured-detail-content {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.details-travel-content .card-trip-informations {
+  min-height: 359px;
+  border-radius: 0px;
+  border-style: none;
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  margin-bottom: 15px;
+}
+
+.details-travel-content .card-trip-informations .trip-informations-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 11px;
+  margin-top: 16px;
+}
+
+.details-travel-content .card-trip-informations .informations-content-right {
+  margin-top: 27px;
+}
+
+.details-travel-content .card-trip-informations .informations-content-right .trip-informations-content {
+  margin-left: 11px;
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.details-travel-content .card-trip-informations .informations-content-right .trip-informations-content-data {
+  margin-left: 11px;
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #7D7D7D;
+}
+
+.details-travel-content .card-trip-informations .informations-content-right .trip-informations-content-data .input-seats {
+  max-width: 32px;
+  border: none;
+  border-radius: 0px;
+  border-style: none;
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  text-align: center;
+}
+
+.details-travel-content .card-trip-informations .btn-seats-booking {
+  border-radius: 0px;
+  border: none;
+  min-width: 351px;
+  color: white;
+  background-color: #202040;
+}
+
+.details-travel-content .card-trip-informations .btn-seats-booking:hover {
+  background-color: #202040;
+  border-style: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.details-travel-content .card-trip-informations .btn-seats-booking:active:focus {
+  border: none;
+  background-color: #202040;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.checkout-ticket .card-checkout-ticket-left {
+  min-height: 378px;
+  border-radius: 0px;
+  border-style: none;
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  margin-top: 74px;
+}
+
+.checkout-ticket .card-checkout-informations {
+  margin-top: 74px;
+  border-radius: 0px;
+  border-style: none;
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.checkout-ticket .card-checkout-ticket-left .card-checkout-photo {
+  min-height: 378px;
+  border: none;
+  border-radius: 0px;
+  background-size: cover;
+}
+
+.checkout-ticket .card-checkout-ticket-left .card-checkout-photo .travel-country {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-top: 12px;
+  color: white;
+}
+
+.checkout-ticket .card-checkout-ticket-left .detail-checkout .detail-checkout-title {
+  margin-top: 69px;
+  margin-left: 50px;
+  margin-bottom: 16px;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.checkout-ticket .card-checkout-ticket-left .detail-checkout .checkout-heading {
+  margin-left: 50px;
+  margin-bottom: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.checkout-ticket .card-checkout-ticket-left .detail-checkout .checkout-data {
+  margin-left: 50px;
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.checkout-ticket .card-checkout-informations .checkout-informations-title {
+  margin-top: 22px;
+  margin-left: 12px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.checkout-ticket .card-checkout-informations .checkout-informations-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 12px;
+}
+
+.checkout-ticket .card-checkout-informations .checkout-informations-data {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+.checkout-ticket .card-checkout-informations .payment-method-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-left: 12px;
+  margin-top: 46px;
+}
+
+.checkout-ticket .card-checkout-informations img {
+  max-height: 34px;
+  max-width: 34px;
+  margin-left: 12px;
+  margin-top: 37px;
+}
+
+.checkout-ticket .card-checkout-informations .payment-method-bank {
+  margin-top: -30px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+.checkout-ticket .card-checkout-informations .btn-confirm-payment {
+  border-radius: 0px;
+  border: none;
+  min-width: 351px;
+  color: white;
+  background-color: #202040;
+}
+
+.checkout-ticket .card-checkout-informations .btn-confirm-payment:hover {
+  background-color: #202040;
+  border-style: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.checkout-ticket .card-checkout-informations .btn-confirm-payment:active:focus {
+  border: none;
+  background-color: #202040;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.checkout-ticket .btn-cancel-booking {
+  border-radius: 0px;
+  border: none;
+  min-width: 351px;
+  color: #b1b3b1;
+  background-color: none;
+}
+
+.checkout-ticket .btn-cancel-booking:hover {
+  background-color: none;
+  border-style: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.checkout-ticket .btn-cancel-booking:active:focus {
+  border: none;
+  background-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+footer {
+  background-color: #202040;
+  margin-top: 68px;
+  min-height: 320px;
+}
+
+.footer-content .images-logo-footer img {
+  max-height: 50px;
+  margin-top: 40px;
+}
+
+.footer-content .footer-content-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500px;
+  color: white;
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+
+.footer-content .footer-main-content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  color: white;
+}
+
+.footer-content .footer-main-content:hover {
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */
